@@ -6,8 +6,9 @@ leah is a minimal react project with webpack config.
 ## Usage
 
 ```
-git clone https://github.com/Phonbopit/leah.git
-cd leah
+git clone https://github.com/Phonbopit/leah.git YOUR_FOLDER
+cd YOUR_FOLDER
+# Change name in `package.json`
 npm install
 npm start
 ```
