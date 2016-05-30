@@ -1,7 +1,13 @@
+import React from 'react';
 import { expect } from 'chai';
+import { shallow, mount } from 'enzyme';
 
-describe('Test', () => {
-  it('should work!', () => {
-    expect(1).to.equal(1);
+import App from '../public/app/components/App';
+
+describe('<App />', () => {
+
+  it('should have h2 with Hello React!', () => {
+    const wrapper = shallow(<App />);
+    expect(wrapper.find('.container').children().html()).to.equal('<h2>Hello React!</h2>')
   });
 });
