@@ -1,4 +1,4 @@
-leah ![v2.0.0](https://img.shields.io/badge/version-2.0.0-green.svg)
+leah ![v2.0.1](https://img.shields.io/badge/version-2.0.1-green.svg)
 ---
 
 leah is a minimal react project with webpack config middleware.
@@ -6,7 +6,7 @@ leah is a minimal react project with webpack config middleware.
 ## Usage
 
 ```
-npm install
+npm run setup
 npm start
 ```
 
